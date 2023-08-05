@@ -1,12 +1,13 @@
-package br.ce.wcaquino.servicos;
+package servicos;
 
-import static br.ce.wcaquino.utils.DataUtils.adicionarDias;
+import static utils.DataUtils.adicionarDias;
 
 import java.util.Date;
 
-import br.ce.wcaquino.entidades.Filme;
-import br.ce.wcaquino.entidades.Locacao;
-import br.ce.wcaquino.entidades.Usuario;
+import entidades.Filme;
+import entidades.Locacao;
+import entidades.Usuario;
+
 public class LocacaoService {
 
 	public Locacao alugarFilme(Usuario usuario, Filme filme) {

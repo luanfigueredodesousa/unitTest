@@ -1,9 +1,10 @@
 package br.ce.wcaquino.servicos;
 
-import br.ce.wcaquino.entidades.Filme;
-import br.ce.wcaquino.entidades.Locacao;
-import br.ce.wcaquino.entidades.Usuario;
-import br.ce.wcaquino.utils.DataUtils;
+import entidades.Filme;
+import entidades.Locacao;
+import entidades.Usuario;
+import servicos.LocacaoService;
+import utils.DataUtils;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
